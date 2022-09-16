@@ -145,13 +145,10 @@ class MyPDFHandler(object):
             print('add_bookmarks_by_read_txt success!')
 
 
-def main():
-    path = 'F:\\Study\\1 Exams\\1 CPA\\1 教材\\2022\\'
-    pdf_handler = MyPDFHandler(path+'2022注会教材 审计.pdf', mode=PDFHandleMode.NEWLY)
-    pdf_handler.add_bookmarks_by_read_txt(path+"审计目录.txt", page_offset=8)
-
-    pdf_handler.save2file(path+'2022注会教材 审计【有目录】.pdf')
-
 
 if __name__ == '__main__':
-    main()
+    path = 'add your root path here'
+    pdf_handler = MyPDFHandler(path+"add your pdf file name", mode=PDFHandleMode.NEWLY)
+    # 调整Page_Offset
+    pdf_handler.add_bookmarks_by_read_txt(path+"add your content file name", page_offset=8)
+    pdf_handler.save2file(path+"add your final file name")
