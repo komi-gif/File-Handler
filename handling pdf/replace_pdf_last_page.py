@@ -1,10 +1,10 @@
 # -*-coding: utf-8 -*-
 import PyPDF2
 import os
-file_path1 = "D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\【纸质归档】材料整理\\项目组签字文件\\3 PDF_Modified - 副本\\"
-fileName2 = "D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\【纸质归档】材料整理\\项目组签字【终稿】\\项目组签字页v2.pdf"
+file_path1 = "add your pdf folder path"
+fileName2 = "add your 'last page' pdf path"
 # 新建save_path 文件夹
-save_path = "D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\【纸质归档】材料整理\\项目组签字【终稿】\\pdf_modified【终稿】\\"
+save_path = "add your saving folder path"
 # newFileName = "/Users/weiyang/Desktop/NewTest.pdf"
 file_name = os.listdir(file_path1)
 file_2 = open(fileName2, 'rb')
