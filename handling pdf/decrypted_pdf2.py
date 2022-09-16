@@ -2,7 +2,7 @@
 import pikepdf
 import os
 
-path = "F:\\Study\\1 Exams\\保代考试\\4 考试资料\\2022年\\233网校讲义\\"
+path = "add your folder path"
 files = os.listdir(path)
 for name in files:
     pdf = pikepdf.open(path+name,password='')
