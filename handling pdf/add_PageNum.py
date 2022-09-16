@@ -20,7 +20,7 @@ if __name__ == "__main__":
     import sys, os
 
     # 需要标页码的pdf文件
-    path = 'D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\2 尽职调查阶段\\2-6 基础资产基本情况调查\\2-6-1 基础资产一般要求\\2-6-1-3 基础资产现金流状况\\2-6-1-3-1 基础资产质量状况\\7 程序F 实收样本抽查\\合并完成的文件\\合并完成的pdf文件v2.pdf'
+    path = 'add your pdf path here'
     if len(sys.argv) == 1:
         if not os.path.isfile(path):
             sys.exit(1)
