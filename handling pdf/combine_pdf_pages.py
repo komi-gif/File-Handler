@@ -2,7 +2,7 @@
 from PyPDF3 import PdfFileWriter, PdfFileReader
 from PyPDF3.pdf import PageObject
 
-pdf_filenames = "C:\\Users\\13602\\Desktop\\2-1-1-3-1之6 历史沿革\\6 历史沿革\\合并完成的文件\\合并完成的pdf文件.pdf"
+pdf_filenames = []
 
 input1 = PdfFileReader(open(pdf_filenames[0], "rb"), strict=False)
 input2 = PdfFileReader(open(pdf_filenames[1], "rb"), strict=False)
