@@ -230,7 +230,6 @@ while True:
           '3、适用文件格式：pdf, doc, docx, ppt, pptx, xls, xlsx, png, jpg\n4、代码逻辑：将所有非pdf文件转化并保存为pdf，再按顺序合并所有pdf文件\n'
           '5、请在备份文件夹操作,否则原始文件夹会被修改\n6、生成的PDF文件请在“合并完成的文件”查看，建议使用pdf编辑器添加页码\n7、仅Windows适用')
     # 输入根目录的文件夹
-    # rootPath = 'C:\\Users\\13602\\Desktop\\土地核查\\201-269\\'
     rootPath = input('请输入需要合并的文件夹路径：')
 
     pathname = rootPath
