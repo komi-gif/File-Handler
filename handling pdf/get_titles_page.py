@@ -45,8 +45,8 @@ def get_word_page(word_list):
 
 
 if __name__ == '__main__':
-    path = 'F:\\Study\\1 Exams\\保代考试\\4 考试资料\\2022年\\233网校讲义\\解码文件\\'
-    parsePDFtoTXT(path + '《保荐代表人胜任能力》教材精讲班-孙婧-【可编辑】.pdf')
-    df = pd.read_excel(path+'目录.xlsx')
-    words = df['课程导学'].tolist()
+    path = 'add your file path'
+    parsePDFtoTXT(path + 'add your pdf name')
+    df = pd.read_excel(path+'content.xlsx')
+    words = df['title'].tolist()
     get_word_page(words)
