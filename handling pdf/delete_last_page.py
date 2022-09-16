@@ -4,9 +4,9 @@ import PyPDF2
 import os
 
 # 新建save_path 文件夹
-file_path = "D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\【纸质归档】材料整理\\项目组签字文件\\3 PDF_Modified\\"
-save_path = "D:\\SynologyDrive\\FY01a【归档】物业尾款一期\\【纸质归档】材料整理\\项目组签字文件\\4 PDF_for_Print\\"
-# newFileName = "/Users/weiyang/Desktop/NewTest.pdf"
+file_path = "add your pdf folder"
+save_path = "add your pdf folder"
+
 file_name = os.listdir(file_path)
 
 for name in file_name:
