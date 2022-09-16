@@ -56,4 +56,4 @@ def decrypt_pdf(filename, password, decrypted_filename=None):
     pdf_writer.write(open(decrypted_filename, 'wb'))
 
 
-decrypt_pdf(r"F:\\zszq\\培训\\2022.05.18 投资者权益保护培训-上交所\\第一讲：投资者保护参考文本讲解.pdf", '')  # 密码不知道，就设置为空
+decrypt_pdf(r"add your pdf file path here", '')  # 密码不知道，就设置为空
