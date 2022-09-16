@@ -6,7 +6,7 @@ import os
 word = win32com.client.Dispatch("Word.Application")
 print('my check point 1')
 
-pdfs_path = "D:\\SynologyDrive\\HYS01a【原稿】火焰山股\\1 项目管理\\3 资料整理\\1 客户提供的资料\\2022.08.22 初步尽调资料\\3 8.20补充资料\\"  # folder where the .pdf files are
+pdfs_path = ""  # folder where the .pdf files are
 
 # stored
 reqs_path = pdfs_path
