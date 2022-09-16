@@ -129,7 +129,7 @@ class PDFConverter:
 
 if __name__ == "__main__":
     # 支持文件夹批量导入
-    pathname = 'D:\\SynologyDrive\\ZS01a【归档】中山私募债\\第1部分 公司债券承销业务尽职调查文件\\第1章节 发行人基本情况调查\\1-1 历史沿革与股权结构\\1-1-1 发行人工商登记文件\\'
+    pathname = 'add your file path here'
 
 
     # 也支持单个文件的转换
